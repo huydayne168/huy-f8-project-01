@@ -163,7 +163,25 @@ a {
 
 .clients-logo .logos {
     justify-content: space-between;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
+    margin-top: 70px;
+}
+
+.clients-logo .logos a {
+    display: inline-block;
+    width: 204px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 400ms;
+}
+
+.clients-logo .logos a:hover {
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .review {
@@ -186,16 +204,14 @@ a {
     color: #7d8589;
 }
 
-.logos .special-logo {
+/* .logos .special-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 204px;
     height: 91px;
-    background: #ffffff;
-    box-shadow: 0px 45px 80px rgba(0, 0, 0, 0.04);
-    border-radius: 12px;
-}
+    
+} */
 
 /* ======seller type====== */
 
@@ -648,6 +664,10 @@ a {
 
 .column .social {
     margin-top: 40px;
+}
+
+.column .social a {
+    display: inline-block;
 }
 
 .column .social img {
