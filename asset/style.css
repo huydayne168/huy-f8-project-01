@@ -41,7 +41,7 @@ a {
 
 /* ===header css=== */
 
-.header {
+.header:fi {
     background-color: #e6f0ff;
     padding-top: 28px;
     position: sticky;
